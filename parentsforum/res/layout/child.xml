@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+     android:background="@color/white"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_tieziname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="帖子1"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tv_tiezitime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_below="@id/tv_tieziname"
+            android:text="6小时前" 
+            android:textSize="12sp"/>
+        
+         <TextView
+            android:id="@+id/tv_tiezibackcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="25dp"
+            android:layout_below="@id/tv_tieziname"
+            android:layout_toRightOf="@id/tv_tiezitime"
+            android:text="255回帖"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

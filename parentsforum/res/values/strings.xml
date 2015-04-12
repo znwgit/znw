@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">家长圈</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="skip">> 跳过</string>
+    <string name="experience">立即体验</string>
+    <string name="username">手机号/用户名</string>
+    <string name="pwd">密码</string>
+    
+   <!-- 主页 更多侧滑 -->
+   <string name="setting">设置</string>
+   <!-- 设置界面 -->
+   <string name="nightmodel">夜间模式</string>
+  
+
+</resources>

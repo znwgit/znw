@@ -1,0 +1,40 @@
+[
+  {
+    "id": 100,
+    "name": "Quanzi1",
+    "personcount": 0,
+    "tiezilist": [
+      {
+        "tid": 1,
+        "tname": "tiezi1",
+        "createtiem": "6小时前",
+        "backcount": 100
+      },
+      {
+        "tid": 2,
+        "tname": "tiezi2",
+        "createtiem": "8小时前",
+        "backcount": 110
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Quanzi2",
+    "personcount": 0,
+    "tiezilist": [
+      {
+        "tid": 2,
+        "tname": "tiezi3",
+        "createtiem": "9小时前",
+        "backcount": 210
+      },
+      {
+        "tid": 4,
+        "tname": "tiezi4",
+        "createtiem": "18小时前",
+        "backcount": 170
+      }
+    ]
+  }
+]

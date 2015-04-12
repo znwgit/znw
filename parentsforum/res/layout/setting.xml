@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slideswitch="http://schemas.android.com/apk/res/com.znw.parentsforum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/titleblue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/layout_selecter"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="4"
+                    android:text="@string/nightmodel"
+                    android:textSize="18sp" />
+
+                <com.znw.parentsforum.defineview.MyToggle
+                    android:id="@+id/toggle"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F7F7F7"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:text="    关于我们"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:id="@+id/ll_version"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/layout_selecter"
+                android:clickable="false"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="4"
+                    android:text="版本更新"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_islast"
+                    android:layout_width="0dp"
+                    android:layout_height="22dip"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:text="已是最新" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/layout_selecter"
+                android:clickable="true"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="4"
+                    android:text="版本信息"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="20dip"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/register_back" >
+                </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
